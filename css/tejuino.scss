@@ -1,8 +1,14 @@
 /* ------------------------------- */
 /* Variables */
-$buttoncolor: #003366;
+$buttonfocusdefault: #003366;
+$buttonfocusdefaulthover: #0052a3;
+$buttonfocusmain: #119600;
+$buttonfocusmainhover: #15b300;
+$buttonfocussecondary: #dadada;
+$buttonfocussecondaryhover: #a71515;
 $linkcolor: #004c9c;
 $maincolor: #1a1a1a;
+$buttoncolor: #ffffff;
 
 /* ------------------------------- */
 /* Reset Properties */
@@ -212,12 +218,36 @@ nav {
 /* ------------------------------- */
 /* Buttons */
 button {
-  border-radius: 5px;
-  font-size: 1.6rem;
-  padding: 0.5rem 2rem;
+  border-radius: 10px;
+  font-size: 1.2rem;
+  padding: 0.75rem 2rem;
+  text-transform: uppercase;
   &.btn {
-    background-color: $buttoncolor;
-    border: 1px solid $buttoncolor;
-    color: #fff;
+    background-color: $buttonfocusdefault;
+    border: 2px solid $buttonfocusdefaulthover;
+    color: $buttoncolor;
+    &:hover {
+      background-color: $buttonfocusdefaulthover;
+      cursor: pointer;
+    }
+  }
+  &.btn-main {
+    background-color: $buttonfocusmain;
+    border: 2px solid $buttonfocusmainhover;
+    color: $buttoncolor;
+    &:hover {
+      background-color: $buttonfocusmainhover;
+      cursor: pointer;
+    }
+  }
+  &.btn-secondary {
+    background-color: $buttonfocussecondary;
+    border: 2px solid $buttonfocussecondaryhover;
+    color: $maincolor;
+    &:hover {
+      background-color: $buttonfocussecondaryhover;
+      color: $buttoncolor;
+      cursor: pointer;
+    }
   }
 }

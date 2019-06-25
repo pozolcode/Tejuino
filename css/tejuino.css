@@ -227,14 +227,43 @@ nav ul li:nth-last-child(1)::after {
 /* ------------------------------- */
 /* Buttons */
 button {
-  border-radius: 5px;
-  font-size: 1.6rem;
-  padding: 0.5rem 2rem;
+  border-radius: 10px;
+  font-size: 1.2rem;
+  padding: 0.75rem 2rem;
+  text-transform: uppercase;
 }
 
 button.btn {
   background-color: #003366;
-  border: 1px solid #003366;
-  color: #fff;
+  border: 2px solid #0052a3;
+  color: #ffffff;
+}
+
+button.btn:hover {
+  background-color: #0052a3;
+  cursor: pointer;
+}
+
+button.btn-main {
+  background-color: #119600;
+  border: 2px solid #15b300;
+  color: #ffffff;
+}
+
+button.btn-main:hover {
+  background-color: #15b300;
+  cursor: pointer;
+}
+
+button.btn-secondary {
+  background-color: #dadada;
+  border: 2px solid #a71515;
+  color: #1a1a1a;
+}
+
+button.btn-secondary:hover {
+  background-color: #a71515;
+  color: #ffffff;
+  cursor: pointer;
 }
 /*# sourceMappingURL=tejuino.css.map */
