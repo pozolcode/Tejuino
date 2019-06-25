@@ -152,6 +152,11 @@ html body {
   line-height: 1.6;
 }
 
+html img {
+  width: 100%;
+  height: auto;
+}
+
 /* ------------------------------- */
 /* Typography */
 a {
@@ -199,4 +204,12 @@ p {
 }
 
 /* ------------------------------- */
+/* Buttons */
+button {
+  background-color: #003366;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 1.6rem;
+  padding: 0.5rem 2rem;
+}
 /*# sourceMappingURL=tejuino.css.map */
