@@ -1,8 +1,12 @@
 /* ------------------------------- */
-/* Reset Properties */
+/* Variables */
 $buttoncolor: #003366;
 $linkcolor: #004c9c;
 $maincolor: #1a1a1a;
+
+/* ------------------------------- */
+/* Reset Properties */
+
 @import 'reset.css';
 
 * {
@@ -48,23 +52,21 @@ $maincolor: #1a1a1a;
 
 /* General Column Configuration */
 [class^="col"] {
-  background-color: antiquewhite;
-  border: 1px solid $maincolor;
   & > .content {
     margin: 0 1rem;
   }
-  &.one         {width: (100% / 12)}
-  &.two         {width: (100% / 6)}
-  &.three       {width: (100% / 4)}
-  &.four        {width: (100% / 3)}
-  &.five        {width: ((100% / 12) * 5)}
-  &.six         {width: (100% / 2)}
-  &.seven       {width: ((100% / 12) * 7)}
-  &.eight       {width: ((100% / 12) * 8)}
-  &.nine        {width: ((100% / 12) * 9)}
-  &.ten         {width: ((100% / 12) * 10)}
-  &.eleven      {width: ((100% / 12) * 11)}
-  &.twelve      {width: 100%}
+  &.one         { width: (100% / 12) }
+  &.two         { width: (100% / 6) }
+  &.three       { width: (100% / 4) }
+  &.four        { width: (100% / 3) }
+  &.five        { width: ((100% / 12) * 5) }
+  &.six         { width: (100% / 2) }
+  &.seven       { width: ((100% / 12) * 7) }
+  &.eight       { width: ((100% / 12) * 8) }
+  &.nine        { width: ((100% / 12) * 9) }
+  &.ten         { width: ((100% / 12) * 10) }
+  &.eleven      { width: ((100% / 12) * 11) }
+  &.twelve      { width: 100% }
 }
 
 /* Column Sizes Media Queries */
@@ -82,7 +84,7 @@ $maincolor: #1a1a1a;
     &.nine,
     &.ten,
     &.eleven,
-    &.twelve    {width: 100%}
+    &.twelve    { width: 100% }
   }
 }
 /* Size: Medium */
@@ -99,7 +101,7 @@ $maincolor: #1a1a1a;
     &.nine,
     &.ten,
     &.eleven,
-    &.twelve    {width: 100%}
+    &.twelve    { width: 100% }
   }
 }
 /* Size: Large */
@@ -116,7 +118,7 @@ $maincolor: #1a1a1a;
     &.nine,
     &.ten,
     &.eleven,
-    &.twelve    {width: 100%}
+    &.twelve    { width: 100% }
   }
 }
 /* Size: Extra Large */
@@ -133,7 +135,7 @@ $maincolor: #1a1a1a;
     &.nine,
     &.ten,
     &.eleven,
-    &.twelve    {width: 100%}
+    &.twelve    { width: 100% }
   }
 }
 
@@ -149,16 +151,17 @@ html {
     font-weight: 400;
     line-height: 1.6;
   }
-  img {
-    width: 100%;
-    height: auto;
-  }
+}
+
+img {
+  width: 100%;
+  height: auto;
 }
 
 /* ------------------------------- */
 /* Typography */
 a {
-  color: inherit;
+  color: $maincolor;
   font-size: inherit;
   text-decoration: none;
   &:hover {
@@ -166,38 +169,34 @@ a {
     text-decoration: underline;
   }
 }
-h1, h2, h3, h4, h5, h6 {
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   line-height: 1.8;
   margin: .5rem 0;
 }
-h1 {
-  font-size: 5rem;
-}
-h2 {
-  font-size: 4.2rem;
-}
-h3 {
-  font-size: 3.6rem;
-}
-h4 {
-  font-size: 3rem;
-}
-h5 {
-  font-size: 2.4rem;
-}
-h6 {
-  font-size: 1.8rem;
-}
- p {
-   margin: .75rem 0;
- }
 
- /* ------------------------------- */
+h1    { font-size: 5rem; }
+h2    { font-size: 4.2rem; }
+h3    { font-size: 3.6rem; }
+h4    { font-size: 3rem; }
+h5    { font-size: 2.4rem; }
+h6    { font-size: 1.8rem; }
+
+p     { margin: 0.75rem 0; }
+
+/* ------------------------------- */
 /* Buttons */
 button {
-  background-color: $buttoncolor;
   border-radius: 5px;
-  color: #fff;
   font-size: 1.6rem;
   padding: 0.5rem 2rem;
+  .btn {
+    background-color: $buttoncolor;
+    color: #fff;
+  }
 }
