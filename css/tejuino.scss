@@ -160,6 +160,7 @@ img {
 
 /* ------------------------------- */
 /* Typography */
+
 a {
   color: $maincolor;
   font-size: inherit;
@@ -190,13 +191,33 @@ h6    { font-size: 1.8rem; }
 p     { margin: 0.75rem 0; }
 
 /* ------------------------------- */
+/* Navbar */
+
+nav {
+  ul {
+    list-style: none;
+    li {
+      margin: 0.5rem 2rem;
+      &::after {
+        content: "|";
+        position: relative;
+      }
+      &:nth-last-child(1)::after {
+        content: "";
+      }
+    }
+  }
+}
+
+/* ------------------------------- */
 /* Buttons */
 button {
   border-radius: 5px;
   font-size: 1.6rem;
   padding: 0.5rem 2rem;
-  .btn {
+  &.btn {
     background-color: $buttoncolor;
+    border: 1px solid $buttoncolor;
     color: #fff;
   }
 }
