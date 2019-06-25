@@ -57,29 +57,10 @@ html {
   clear: both;
 }
 
-/*
-Around 1200px
-.col-xl
-
-Around 992px
-.col-bg
-
-Around 778
-.col-md
-
-Less than 778px
-.col-sm
-*/
-[class^="col-"] {
+/* General Column Configuration */
+[class^="col-"] > * {
   margin: 0 1rem;
-}
-
-[class^="col-"]:nth-of-type(1) {
-  margin-left: 0;
-}
-
-[class^="col-"]:nth-last-of-type(1) {
-  margin-right: 0;
+  border: 1px solid red;
 }
 
 /* Column Sizes */
@@ -130,4 +111,20 @@ Less than 778px
 [class^="col"][class$="-12"] {
   width: 100%;
 }
+
+/* Column Sizes Media Queries */
+/* Size: Small */
+/*
+Around 1200px
+.col-xl
+
+Around 992px
+.col-bg
+
+Around 778px
+.col-md
+
+Less than 778px
+.col-sm
+*/
 /*# sourceMappingURL=tejuino.css.map */
