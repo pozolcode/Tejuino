@@ -1,2 +1,2 @@
 # Tejuino
-PozolCode's CSS Framework
+CSS Framework
