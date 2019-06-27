@@ -444,4 +444,16 @@ button.btn-secondary:hover {
   color: #ffffff;
   cursor: pointer;
 }
+
+/* ------------------------------- */
+/* Inputs & Forms Properties */
+input {
+  border: 0.1rem solid #eaeaea;
+  border-radius: 0.5rem;
+  color: inherit;
+  font-size: inherit;
+  margin: 0.25rem 0.5rem;
+  padding: 0.25rem 0.5rem;
+  width: 80%;
+}
 /*# sourceMappingURL=tejuino.css.map */
