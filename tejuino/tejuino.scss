@@ -164,6 +164,77 @@ img {
 }
 
 /* ------------------------------- */
+/* Margin Properties */
+
+.margin-right { margin-right: 1rem; }
+.no-margin-right { margin-right: 0; }
+.margin-top { margin-top: 1rem; }
+.no-margin-top { margin-top: 0; }
+.margin-left { margin-left: 1rem; }
+.no-margin-left { margin-left: 0; }
+.margin-bottom { margin-bottom: 1rem; }
+.no-margin-bottom { margin-bottom: 0; }
+.margin-all { margin: 1rem; }
+.margin-auto { margin: auto; }
+.no-margin { margin: 0; }
+
+@media screen and (min-width:558px) {
+  .sm-margin-right { margin-right: 1rem; }
+  .sm-no-margin-right { margin-right: 0; }
+  .sm-margin-top { margin-top: 1rem; }
+  .sm-no-margin-top { margin-top: 0; }
+  .sm-margin-left { margin-left: 1rem; }
+  .sm-no-margin-left { margin-left: 0; }
+  .sm-margin-bottom { margin-bottom: 1rem; }
+  .sm-no-margin-bottom { margin-bottom: 0; }
+  .sm-margin-all { margin: 1rem; }
+  .sm-margin-auto { margin: auto; }
+  .sm-no-margin { margin: 0; }
+}
+
+@media screen and (min-width:768px) {
+  .md-margin-right { margin-right: 1rem; }
+  .md-no-margin-right { margin-right: 0; }
+  .md-margin-top { margin-top: 1rem; }
+  .md-no-margin-top { margin-top: 0; }
+  .md-margin-left { margin-left: 1rem; }
+  .md-no-margin-left { margin-left: 0; }
+  .md-margin-bottom { margin-bottom: 1rem; }
+  .md-no-margin-bottom { margin-bottom: 0; }
+  .md-margin-all { margin: 1rem; }
+  .md-margin-auto { margin: auto; }
+  .md-no-margin { margin: 0; }
+}
+
+@media screen and (min-width:992px) {
+  .lg-margin-right { margin-right: 1rem; }
+  .lg-no-margin-right { margin-right: 0; }
+  .lg-margin-top { margin-top: 1rem; }
+  .lg-no-margin-top { margin-top: 0; }
+  .lg-margin-left { margin-left: 1rem; }
+  .lg-no-margin-left { margin-left: 0; }
+  .lg-margin-bottom { margin-bottom: 1rem; }
+  .lg-no-margin-bottom { margin-bottom: 0; }
+  .lg-margin-all { margin: 1rem; }
+  .lg-margin-auto { margin: auto; }
+  .lg-no-margin { margin: 0; }
+}
+
+@media screen and (min-width:1200px) {
+  .xl-margin-right { margin-right: 1rem; }
+  .xl-no-margin-right { margin-right: 0; }
+  .xl-margin-top { margin-top: 1rem; }
+  .xl-no-margin-top { margin-top: 0; }
+  .xl-margin-left { margin-left: 1rem; }
+  .xl-no-margin-left { margin-left: 0; }
+  .xl-margin-bottom { margin-bottom: 1rem; }
+  .xl-no-margin-bottom { margin-bottom: 0; }
+  .xl-margin-all { margin: 1rem; }
+  .xl-margin-auto { margin: auto; }
+  .xl-no-margin { margin: 0; }
+}
+
+/* ------------------------------- */
 /* Display Properties */
 
 .set-flex     { display: flex }
