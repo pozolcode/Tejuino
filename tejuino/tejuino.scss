@@ -20,6 +20,28 @@ $buttoncolor: #ffffff;
 }
 
 /* ------------------------------- */
+/* Display Properties */
+
+.set-flex     { display: flex }
+.set-hidden   { visibility: hidden }
+
+@media screen and (min-width:558px) {
+  .set-sm-none { display: none; }
+}
+
+@media screen and (min-width:768px) {
+  .set-md-none { display: none; }
+}
+
+@media screen and (min-width:992px) {
+  .set-lg-none { display: none; }
+}
+
+@media screen and (min-width:1200px){
+  .set-xl-none { display: none; }
+}
+
+/* ------------------------------- */
 /* Grid Properties */
 
 .container {
@@ -131,15 +153,10 @@ $buttoncolor: #ffffff;
   .col-xl-12 {width: 100%;}
 }
 
-
-
-
 /* ------------------------------- */
 /* General Properties */
 
-html {
-  font-size: 10px;
-}
+html    { font-size: 10px; }
 
 body {
   color: $maincolor;
@@ -207,6 +224,7 @@ nav {
 
 /* ------------------------------- */
 /* Buttons */
+
 button {
   border-radius: 10px;
   font-size: 1.2rem;
