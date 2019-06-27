@@ -317,6 +317,23 @@ img {
 }
 
 /* ------------------------------- */
+/* Border Properties */
+
+.border-right { border-right: 0.1rem solid $black; }
+.no-border-right { border-right: 0; }
+.border-top { border-top: 0.1rem solid $black; }
+.no-border-top { border-top: 0; }
+.border-left { border-left: 0.1rem solid $black; }
+.no-border-left { border-left: 0; }
+.border-bottom { border-bottom-color: 0.1rem solid $black; }
+.no-border-bottom { border-bottom: 0; }
+.border-all { border: 0.1rem solid $black; }
+.no-border { border: 0; }
+
+.border-soft { border-radius: 0.5rem; }
+.border-circle { border-radius: 50%; }
+
+/* ------------------------------- */
 /* Display Properties */
 
 .set-flex     { display: flex }
