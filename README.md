@@ -14,6 +14,8 @@ CSS Framework focusing on basic elements:
       <li>Secondary</li>
     </ul>
   </li>
+  <li>Text Styles</li>
+  <li>Background and Text Colours</li>
 </ul>
 
 #### Check the current version at <a href="https://github.com/pozolcode/Tejuino">@PozolCode</a>
