@@ -456,4 +456,8 @@ input {
   padding: 0.25rem 0.5rem;
   width: 80%;
 }
+
+label {
+  font-weight: 700;
+}
 /*# sourceMappingURL=tejuino.css.map */
