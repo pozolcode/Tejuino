@@ -16,8 +16,8 @@ CSS Framework focusing on basic elements:
   </li>
 </ul>
 
-#### Check the current version at <a href="https://github.com/pozolcode/Tejuino">PozolCode</a>
+#### Check the current version at <a href="https://github.com/pozolcode/Tejuino">@PozolCode</a>
 
 ### Originally made by:
-Carlos Sol: <a href="https://github.com/FSolM">FSolM</a><br>
-Eapen Zacharias: <a href="https://github.com/eapenzacharias">eapenzacharias</a>
+Carlos Sol: <a href="https://github.com/FSolM">@FSolM</a><br>
+Eapen Zacharias: <a href="https://github.com/eapenzacharias">@eapenzacharias</a>
