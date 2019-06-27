@@ -8,6 +8,17 @@ $button_background_main-hover: #15b300;
 $button_background_secondary: #dadada;
 $button_background_secondary-hover: #a71515;
 
+$white: #ffffff;
+$black: #000000;
+$red: #c20000;
+$blue: #1d2485;
+$yellow: #bbdd23;
+$green: #00ff00;
+$purple: #800080;
+$brown: #641e16;
+$grey: #7c7c7c;
+$cyan: #00ecfd;
+
 /* ------------------------------- */
 /* Reset Properties */
 
@@ -397,6 +408,34 @@ p     { margin: 0.75rem 0; }
 .text-bold { font-weight: 700; }
 .text-normal { font-weight: 400; }
 .text-light { font-weight: 300; }
+
+/* ------------------------------- */
+/* Color Properties */
+
+.text-white { color: $white; }
+.text-black { color: $black; }
+.text-red { color: $red; }
+.text-blue { color: $blue; }
+.text-green { color: $green; }
+.text-yellow { color: $yellow; }
+.text-purple { color: $purple; }
+.text-brown { color: $brown; }
+.text-cyan { color: $cyan; }
+.text-grey { color: $grey; }
+
+/* ------------------------------- */
+/* Background Properties */
+
+.background-white { background-color: $white; }
+.background-black { background-color: $black; }
+.background-red { background-color: $red; }
+.background-blue { background-color: $blue; }
+.background-green { background-color: $green; }
+.background-yellow { background-color: $yellow; }
+.background-purple { background-color: $purple; }
+.background-brown { background-color: $brown; }
+.background-cyan { background-color: $cyan; }
+.background-grey { background-color: $grey; }
 
 /* ------------------------------- */
 /* Navbar Properties */
