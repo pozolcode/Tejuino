@@ -186,6 +186,21 @@ img {
 }
 
 /* ------------------------------- */
+/* Flex Properties */
+
+.flex-vertical-start { align-content: flex-start; }
+
+.flex-vertical-center { align-content: center; }
+
+.flex-vertical-end { align-content: flex-end; }
+
+.flex-horizontal-start { justify-content: flex-start; }
+
+.flex-horizontal-center { justify-content: center; }
+
+.flex-horizontal-end { justify-content: flex-end; }
+
+/* ------------------------------- */
 /* Typography */
 
 a {
