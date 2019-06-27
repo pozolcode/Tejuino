@@ -1,11 +1,46 @@
 /* ------------------------------- */
 /* Variables */
 /* ------------------------------- */
-/* Reset Properties */
-@import url(c:\Users\ferso\Documents\_Dev\_PozolCode\Tejuino\tejuino\reset.css);
+/* General Properties */
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  color: #1a1a1a;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 1.6em;
+  font-weight: 400;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+div,
+span,
+iframe,
+ul,
+li,
+article,
+aside,
+head,
+nav,
+footer {
+  border: 0;
+  margin: 0;
+  padding: 0;
 }
 
 /* ------------------------------- */
@@ -295,25 +330,6 @@
   .col-xl-12 {
     width: 100%;
   }
-}
-
-/* ------------------------------- */
-/* General Properties */
-html {
-  font-size: 10px;
-}
-
-body {
-  color: #1a1a1a;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  font-size: 1.6em;
-  font-weight: 400;
-  line-height: 1.6;
-}
-
-img {
-  width: 100%;
-  height: auto;
 }
 
 /* ------------------------------- */
