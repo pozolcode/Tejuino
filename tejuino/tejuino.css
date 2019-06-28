@@ -32,6 +32,7 @@ div,
 span,
 iframe,
 ul,
+ol,
 li,
 article,
 aside,
@@ -459,5 +460,41 @@ input {
 
 label {
   font-weight: 700;
+}
+
+/* ------------------------------- */
+/* Inputs & Forms Properties */
+ul {
+  list-style: disc;
+  margin-left: 1.5%;
+}
+
+ul li {
+  margin-left: 1.5rem;
+}
+
+ul li ul {
+  list-style: circle;
+}
+
+ul li ul li {
+  margin-left: 1rem;
+}
+
+ol {
+  list-style: decimal;
+  margin-left: 1.5%;
+}
+
+ol li {
+  margin-left: 1.5rem;
+}
+
+ol li ol {
+  list-style: decimal-leading-zero;
+}
+
+ol li ol li {
+  margin-left: 1rem;
 }
 /*# sourceMappingURL=tejuino.css.map */

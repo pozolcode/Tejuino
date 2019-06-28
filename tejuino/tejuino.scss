@@ -40,6 +40,7 @@ div,
 span,
 iframe,
 ul,
+ol,
 li,
 article,
 aside,
@@ -288,4 +289,34 @@ input {
 
 label       { font-weight: 700; }
 
+/* ------------------------------- */
+/* Inputs & Forms Properties */
+
+ul {
+  list-style: disc;
+  margin-left: 1.5%;
+  li {
+    margin-left: 1.5rem;
+    ul {
+      list-style: circle;
+      li {
+        margin-left: 1rem;
+      }
+    }
+  }
+}
+
+ol {
+  list-style: decimal;
+  margin-left: 1.5%;
+  li {
+    margin-left: 1.5rem;
+    ol {
+      list-style: decimal-leading-zero;
+      li {
+        margin-left: 1rem;
+      }
+    }
+  }
+}
 
