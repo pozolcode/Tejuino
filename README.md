@@ -15,6 +15,8 @@ CSS Framework focusing on basic elements:
       <li>Secondary</li>
     </ul>
   </li>
+  <li>Input Styles</li>
+  <li>List Styles</li>
 </ul>
 
 ### Use:
