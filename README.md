@@ -21,9 +21,9 @@ CSS Framework focusing on basic elements:
 
 ### Use:
 ```
-Download the repository and add the Tejuino folder to your project
+Download the file from <a href="https://drive.google.com/file/d/1oIrjDEyn02aujXG8g4lAgpazc6PUE9RQ/view?usp=sharing">here!</a>
 
-Add the tejuino.css file into the html target file
+Add the tejuino.css file into your project
 ```
 
 ### Originally made by:
