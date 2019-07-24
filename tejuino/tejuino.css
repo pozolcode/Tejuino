@@ -386,7 +386,25 @@ p {
 
 /* ------------------------------- */
 /* Navbar */
+nav.nav-right ul {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+nav.nav-left ul {
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
 nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   list-style: none;
 }
 
@@ -396,6 +414,7 @@ nav ul li {
 
 nav ul li::after {
   content: "|";
+  margin: 0 25%;
   position: relative;
 }
 

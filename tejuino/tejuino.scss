@@ -221,12 +221,17 @@ p     { margin: 0.75rem 0; }
 /* Navbar */
 
 nav {
+  &.nav-right ul { justify-content: flex-end; }
+  &.nav-left ul { justify-content: flex-start; }
   ul {
+    display: flex;
+    justify-content: center;
     list-style: none;
     li {
       margin: 0.5rem 2rem;
       &::after {
         content: "|";
+        margin: 0 25%;
         position: relative;
       }
       &:nth-last-child(1)::after {
