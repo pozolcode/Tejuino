@@ -409,12 +409,12 @@ nav ul {
 }
 
 nav ul li {
-  margin: 0.5rem 2rem;
+  margin: 0.5rem;
 }
 
 nav ul li::after {
   content: "|";
-  margin: 0 25%;
+  margin: 0 2rem;
   position: relative;
 }
 
