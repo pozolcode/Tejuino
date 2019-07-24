@@ -423,6 +423,23 @@ nav ul li:nth-last-child(1)::after {
 }
 
 /* ------------------------------- */
+/* Footer */
+footer {
+  display: block;
+  text-align: center;
+}
+
+footer ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  list-style: none;
+}
+
+/* ------------------------------- */
 /* Buttons */
 button {
   border-radius: 10px;
