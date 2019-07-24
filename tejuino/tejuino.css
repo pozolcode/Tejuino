@@ -410,7 +410,7 @@ nav ul {
 }
 
 nav ul li {
-  margin: 0.5rem;
+  margin: 1rem 0;
 }
 
 nav ul li::after {
