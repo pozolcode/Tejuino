@@ -1,5 +1,6 @@
 /* ------------------------------- */
 /* Variables */
+
 $buttonfocusdefault: #003366;
 $buttonfocusdefaulthover: #0052a3;
 $buttonfocusmain: #119600;
@@ -250,7 +251,8 @@ footer {
   ul {
     display: flex;
     justify-content: center;
-    list-style: none
+    list-style: none;
+    margin: 0;
   }
 }
 
