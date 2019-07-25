@@ -125,6 +125,24 @@ footer {
   clear: both;
 }
 
+.row.row-left {
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.row.row-center {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.row.row-right {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
 [class^="col-"] {
   width: 100%;
 }
@@ -427,6 +445,7 @@ nav ul li:nth-last-child(1)::after {
 /* Footer */
 footer {
   display: block;
+  padding: 5rem 0;
   text-align: center;
 }
 
