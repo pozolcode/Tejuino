@@ -1,23 +1,6 @@
 # Tejuino
-###### v1.0
+###### v0.8
 CSS Framework focusing on basic elements:
-
-#### Provides:
-<ul>
-  <li>Flex Layout</li>
-  <li>General page Style</li>
-  <li>Typography Config</li>
-  <li>Navbar lists</li>
-  <li>Buttons Styles:
-    <ul>
-      <li>Default</li>
-      <li>Main</li>
-      <li>Secondary</li>
-    </ul>
-  </li>
-  <li>Input Styles</li>
-  <li>List Styles</li>
-</ul>
 
 ### Use:
 Download the file from <a href="https://drive.google.com/file/d/1oIrjDEyn02aujXG8g4lAgpazc6PUE9RQ/view?usp=sharing">here!</a>
